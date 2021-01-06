@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cabin&family=Roboto&family=Source+Code+Pro&display=swap');
 body, html {
   margin: 0;
   background-color: #212121;
@@ -16,6 +16,7 @@ body, html {
     padding: 20px 0;
     background-color: #164A41;
     z-index: 3;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .head {
@@ -64,5 +65,5 @@ body, html {
 
 #navbar1 {
   color: white;
-  margin: 20px;  
+  margin: 20px;
 }
