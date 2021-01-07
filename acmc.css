@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cabin&family=Roboto&family=Source+Code+Pro&display=swap');
+
+body {
+  background: #031926;
+}
+
+#title {
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#subtitle {
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mainbox {
+  display: left;
+}
