@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cabin&family=Roboto&family=Source+Code+Pro&display=swap');
+body, html {
+  margin: 0;
+  background-color: #212121;
+  /*overflow: hidden;*/
+}
+
+.nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #212121;
+    padding: 20px 0;
+    z-index: 3;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.head {
+  position: relative;
+  background-color: #d45757;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  z-index: 2;
+}
+
+.headtext {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+  font-size: 50px;
+  font-family: 'Commissioner', sans-serif;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 20px rgb(255, 255, 255);
+  z-index: 2;
+  transition-duration: 2s;
+}
+
+.subheadtext {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Commissioner', sans-serif;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+}
+
+.footer {
+  position: absolute;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+#top {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#navbar1 {
+  color: white;
+  margin: 20px;
+}
+
+.cred {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    text-align: center;
+}
+
+.about{
+    display: flex;
+    background-color: rgb(255, 196, 0);
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.aboutimage {
+    flex: 1;
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.abouttextall {
+    flex: 5;
+}
