@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cabin&family=Roboto&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body, html {
+  margin: 0;
+  background-color: #212121;
+  /*overflow: hidden;*/
+}
+
+.nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #212121;
+    padding: 20px 0;
+    z-index: 3;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#head {
+  position: relative;
+  background-color: #1abd42;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  z-index: 2;
+}
+
+.headtext {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Commissioner', sans-serif;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 20px rgb(255, 255, 255);
+  z-index: 2;
+  transition-duration: 2s;
+}
+
+.subheadtext {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Commissioner', sans-serif;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+}
+
+.footer {
+  background-color: rgb(39, 39, 39);
+  position: absolute;
+  width: 100%;
+}
+
+#top {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#navbar1 {
+  color: white;
+  margin: 20px;
+}
+
+.cred {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    text-align: center;
+}
+
+#about{
+    display: flex;
+    background-color: rgb(255, 111, 28);
+    height: 100%;
+    width: 100%;
+    margin-bottom: -15px;
+    z-index: 2;
+}
+
+.aboutimage {
+    flex: 1;
+    position: relative;
+    width: 360px;
+    height: 360px;
+    top: 15%;
+    left: 5%;
+
+}
+
+.abouttextall {
+  flex: 5;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+.aboutheading {
+  font-family: 'Commissioner', sans-serif;
+}
+
+.abouttext {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#contact {
+  background-color: rgb(136, 221, 255);
+  margin-bottom: -20px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+#contactheading {
+  position: relative;
+  text-align: center;
+  top: 10%;
+  font-family: 'Commissioner', sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+#info {
+  outline: 5px solid;
+  background-color: rgb(166, 227, 255);
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+
+#info:hover {
+  background-color: rgb(85, 221, 85)
+}
+
+#email, #address, #number, #hkid {
+  font-size: 24px;
+  font-weight: 100;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#rickroll {
+  color: white;
+}
