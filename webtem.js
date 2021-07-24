@@ -5,7 +5,6 @@ function passWord() {
     if (!pass1)
     history.go(-1);
     if (pass1.toLowerCase() == "erdna") {
-    window.open('protectpage.html');
     break;
     }
     testV+=1;
