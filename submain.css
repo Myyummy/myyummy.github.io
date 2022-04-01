@@ -20,7 +20,12 @@ html,body {
     transition: all 0.5s;
 }
 
-#name:hover {
+.Andre:hover {
     color: aqua;
     font-size: 40px;
+}
+
+.Benjamin:hover {
+    color: yellow;
+    font-size:40px;
 }
