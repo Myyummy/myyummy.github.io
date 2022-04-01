@@ -13,7 +13,7 @@ html,body {
     font-family: 'Source Code Pro', monospace;
 }
 
-.Andre, .Benjamin {
+.Andre, .Benjamin, .Rick {
     text-align: center;
     color: white;
     font-family: 'Commissioner', sans-serif;
@@ -27,5 +27,10 @@ html,body {
 
 .Benjamin:hover {
     color: yellow;
+    font-size: 40px;
+}
+
+.Rick:hover {
+    color: red;
     font-size: 40px;
 }
